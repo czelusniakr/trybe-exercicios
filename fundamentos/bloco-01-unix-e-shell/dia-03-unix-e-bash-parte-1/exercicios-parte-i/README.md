@@ -1,1 +1,0 @@
-# exercicios-parte-i
