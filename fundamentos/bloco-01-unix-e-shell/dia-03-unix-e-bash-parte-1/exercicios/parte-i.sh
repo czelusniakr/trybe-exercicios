@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 # utilizei como referência esse código: https://github.com/paulohbsimoes/trybe-exercises/blob/master/01-fundamentos/bloco-01-unix-bash-e-shell-script/dia-03-unix-e-bash-part-1/parte-1.sh
 
@@ -71,16 +71,7 @@ clear
 
 # cria arquivo de texto chamado skills.txt para os exercícios 14 e 15
 
-cat > skills.txt
-Internet
-Unix
-Bash
-HTML
-BSS
-JavaScript
-React
-SQL
-ˆC
+echo "Internet\nUnix\nBash\nHTML\nCSS\nJavaScript\nReact\nSQL" >> skills.txt
 
 # exercício 14
 # mostra na tela as primeiras 5 skills do arquivo skills.txt
