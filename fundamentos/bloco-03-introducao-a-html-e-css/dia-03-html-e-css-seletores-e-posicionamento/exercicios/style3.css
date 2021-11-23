@@ -1,0 +1,19 @@
+h1, p {
+    /* 3 - Nesse arquivo .css, adicione os estilos para que:
+O texto das tags 'h1' e 'p' estejam centralizados. */
+    text-align: center;
+}
+/* 3 - Nesse arquivo .css, adicione os estilos para que:
+    A cor de fundo da sua lista mude quando o cursor estiver sobre o item. */
+ol li:hover {
+    background-color: aquamarine;
+}
+/* 3 - Nesse arquivo .css, adicione os estilos para que:
+A fonte do item mude quando ele for clicado. */
+ol li:active {
+    color: tomato;
+}
+/* 5 - No 'style.css', adicione a propriedade 'list-style: none' para ambas as listas. */
+li {
+    list-style: none;
+}
