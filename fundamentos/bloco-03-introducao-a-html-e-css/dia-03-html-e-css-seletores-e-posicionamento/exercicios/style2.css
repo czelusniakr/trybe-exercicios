@@ -7,12 +7,14 @@
 .goomba {
     width: 100px;
     position: absolute;
+    /* 1 - Posicione o Mário acima do Goomba. */
     margin: 260px 120px;
     z-index: 2;
 }
 
 .baloon {
     position: absolute;
+    /* 3 - Posicione o balão para que se torne uma fala de Bowser. */
     margin-left: 225px;
     z-index: 4;
 }
@@ -20,8 +22,9 @@
 .speech {
     font-size: 25px;
     position: absolute;
-    z-index: 5;
+    /* 2 - Posicione a tag p para que fique dentro do balão de fala. */
     margin: 35px 310px;
+    z-index: 5;
 }
 
 .bowser {
