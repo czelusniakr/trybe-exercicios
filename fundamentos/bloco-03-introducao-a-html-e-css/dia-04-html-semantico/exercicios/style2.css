@@ -8,12 +8,16 @@ body {
 img {
     width: 500px;
 }
+nav a, a:link, a:visited, a:active {
+    color: #cdcdcd;
+}
 .nav {
     display: inline-block;
     margin: 0px 10px;
     padding: 10px;
-    background-color: #aea4bf;
+    background-color: #3b252c;
     border-radius: 15px;
+    color: #cdcdcd;
 }
 h1 {
     margin: 30px 10px;
@@ -27,14 +31,18 @@ main, footer {
 }
 aside {
     float: right;
-    border: 2px dotted #8F6593;
+    border: 2px dotted #3b252c;
     height: 100px;
     padding-left: 20px;
     padding-top: 10px;
 }
+#aside-link, #wikipedia, #the-oat-meal, #national-geographic {
+    color: #3b252c;
+}
 footer {
-    background-color: #aea4bf;
+    background-color: #3b252c;
     padding: 10px;
+    color: #cdcdcd;
 }
 .footer {
     display: inline-block;
