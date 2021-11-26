@@ -1,0 +1,50 @@
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #cdcdcd;
+    color: #3b252c;
+}
+img {
+    width: 500px;
+}
+nav a, a:link, a:visited, a:active {
+    color: #cdcdcd;
+}
+.nav {
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: #3b252c;
+    border-radius: 15px;
+    color: #cdcdcd;
+}
+h1 {
+    margin: 30px 10px;
+}
+main, footer {
+    margin: 10px;
+}
+.sections {
+    width: 675px;
+    display: inline-block;
+}
+aside {
+    float: right;
+    border: 2px dotted #3b252c;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#aside-link, #wikipedia, #the-oat-meal, #national-geographic {
+    color: #3b252c;
+}
+footer {
+    background-color: #3b252c;
+    padding: 10px;
+    color: #cdcdcd;
+}
+.footer {
+    display: inline-block;
+    margin: 0px 10px;
+}
