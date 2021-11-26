@@ -1,0 +1,43 @@
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #cdcdcd;
+    color: #3b252c;
+}
+img {
+    width: 500px;
+}
+.nav {
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: #aea4bf;
+    border-radius: 15px;
+}
+h1 {
+    margin: 30px 10px;
+}
+main, footer {
+    margin: 10px;
+}
+.sections {
+    width: 675px;
+
+    display: inline-block;
+}
+aside {
+    float: right;
+    border: 2px dotted #8F6593;
+    height: 2150px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+footer {
+    background-color: #aea4bf;
+    padding: 10px;
+}
+.footer {
+    display: inline-block;
+    margin: 0px 10px;
+}
