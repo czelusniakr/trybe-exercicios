@@ -33,3 +33,7 @@ filhoDoPrimeiroFilhoDoFilhoElemento.innerText = filhoDoPrimeiroFilhoDoFilhoTexto
 primeiroFilhoDoFilho.appendChild(filhoDoPrimeiroFilhoDoFilhoElemento);
 // 4. A partir desse filho criado, acesse terceiroFilho .
 let terceiroFilhoAPartirDeFilhoCriado = filhoDoPrimeiroFilhoDoFilhoElemento.parentNode.parentNode.nextElementSibling;
+// Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho .
+let itensASeremRemovidos = document.getElementsByClassName("remover");
+let paiDosItens = document.getElementById("paiDoPai");
+paiDosItens.removeChild(itensASeremRemovidos);
