@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const firstLi = document.getElementById('first-li');
 const secondLi = document.getElementById('second-li');
 const thirdLi = document.getElementById('third-li');
@@ -38,7 +37,6 @@ function resetText(event) {
   event.target.innerText = 'Opção reiniciada';
   // O event possui várias propriedades, porém a mais usada é o event.target,
   // que retorna o objeto que disparou o evento.
-=======
 body {
   align-items: center;
   background-color: #333;
@@ -51,7 +49,6 @@ body {
   margin: 0;
   padding: 0;
   width: 100vw;
->>>>>>> parent of 97fe537 (corrige conteúdo dos arquivos css e js)
 }
 
 .container {
