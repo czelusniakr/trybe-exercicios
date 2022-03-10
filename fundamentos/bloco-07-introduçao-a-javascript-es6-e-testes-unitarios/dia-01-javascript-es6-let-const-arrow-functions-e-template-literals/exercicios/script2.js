@@ -13,4 +13,4 @@ const sortOddsAndEvens = () => {
 
 const sortedArray = sortOddsAndEvens();
 
-console.log(`Os números ${sortedArray} se encontram ordenados de forma crescente !`); // será necessário alterar essa linha 😉
+console.log(`Os números ${sortedArray} se encontram ordenados de forma crescente!`); // será necessário alterar essa linha 😉
