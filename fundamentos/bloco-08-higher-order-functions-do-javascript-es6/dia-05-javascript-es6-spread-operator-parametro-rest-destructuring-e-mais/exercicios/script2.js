@@ -16,4 +16,6 @@ const userInfo = {
   ...jobInfos,
 };
 
-console.log(userInfo);
+const { name, age, nationality, profession, squadInitials, squad } = userInfo;
+
+console.log(`Hi, my name is ${name}, I'm ${age} years old and I'm ${nationality}. I work as a ${profession} and my squad is ${squadInitials}-${squad}`);
