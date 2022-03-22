@@ -64,7 +64,9 @@ const books = [
 // Adicione o código do exercício aqui:
 const expectedResult = false;
 
-function everyoneWasBornOnSecXX() {
+function authorUnique() {
   // escreva seu código aqui
-  return books.every((book) => book.author.birthYear > 1900 && book.author.birthYear < 2001);
+  return books.every((book) => {
+    !books.some((bookSome) => bookSome.author.birthYear === book.author.birthYear) && (bookSome.author.name !== book.author.name);
+  });
 }

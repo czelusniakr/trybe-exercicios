@@ -62,9 +62,14 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
-const expectedResult = false;
-
-function everyoneWasBornOnSecXX() {
-  // escreva seu código aqui
-  return books.every((book) => book.author.birthYear > 1900 && book.author.birthYear < 2001);
+function smallerName() {
+  let nameBook;
+  // escreva aqui o seu código
+  books.forEach((book) => {
+    if (!nameBook || book.name.length < nameBook.length) {
+      nameBook = book.name;
+    }
+  });
+  // Variável nameBook que receberá o valor do menor nome;
+  return nameBook;
 }
