@@ -62,9 +62,14 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
-const expectedResult = false;
+const expectedResult = [
+  'Frank Herbert',
+  'George R. R. Martin',
+  'Isaac Asimov',
+  'J. R. R. Tolkien',
+];
 
-function everyoneWasBornOnSecXX() {
+function fantasyOrScienceFictionAuthors() {
   // escreva seu código aqui
-  return books.every((book) => book.author.birthYear > 1900 && book.author.birthYear < 2001);
+  return books.filter((book) => book.genre === "Ficção Científica" || book.genre === "Fantasia").map((book) => `${book.author.name}`).sort();
 }

@@ -62,9 +62,13 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
-const expectedResult = false;
+const expectedResult = [
+  'O Senhor dos Anéis',
+  'Fundação',
+  'O Chamado de Cthulhu',
+];
 
-function everyoneWasBornOnSecXX() {
+function oldBooks() {
   // escreva seu código aqui
-  return books.every((book) => book.author.birthYear > 1900 && book.author.birthYear < 2001);
+  return books.filter((book) => book.releaseYear < 2022 - 60).map((book) => book.name);
 }
