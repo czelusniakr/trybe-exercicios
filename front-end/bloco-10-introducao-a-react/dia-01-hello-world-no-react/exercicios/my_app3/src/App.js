@@ -1,18 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 const Task = (value) => {
   return (
-      <li>{value.name}</li>
+      <li key={value}>{value}</li>
   );
 }
 
-function App() {
-  return (
-    <div>
-      <Task name="almocar" />
-    </div>
-  );
+const tarefas = ['lavar roupa', 'lavar louça', 'trocar areia do gato'];
+
+class App extends React.Component {
+  render() {
+    return (
+      <ul>{ tarefas.map(tarefa => Task(tarefa)) }</ul>
+    );
+  }
 }
 
 export default App;
